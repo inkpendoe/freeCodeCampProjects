@@ -60,12 +60,13 @@
   .third-column {
     background-color: #e0e0e0;
     flex: initial;
-    width: 500px;
+    width: 250px;
     justify-content: space-between;
   
   }
   .first-column {
     padding: 25px;
+    border-right: 2pt solid black;
   
   }
   
@@ -76,6 +77,7 @@
   
   .third-column {
     padding: 25px;
+    border-left: 2pt solid black; 
   
   }
   
