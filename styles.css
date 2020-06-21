@@ -5,31 +5,91 @@
     box-sizing: border-box;
   }
   
-  
+  a:link,
+  a:visited {
+      color: purple;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
   .menu-container {
-   color: #e0e0e0;  /* light grey */
-   background-color: #302a2e;  /* dark plum */
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+
+      width: 100%;
+      padding: 50px;
+      background: #302a2e;
+  }
+
+  .menu {
+      margin-top: 15px;
+  }
+
+  .menu > li {
+      display: inline;
+      margin-right: 50px;
+  }
+
+  .menu > li:last-of-type {
+      margin-right:0;
+  }
+
+  .dropdown {
+      position: relative;
+  }
+
+  .dropdown > span {
+      z-index: 2;
+      position: relative;
+      cursor: pointer;
+  }
+
+
+
+  /*
+
+
+  .menu-container {
+   color: #e0e0e0;  
+   background-color: #302a2e;  
    padding: 20px 0;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border: 2pt solid red;
   }
   
   .menu {
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
+      justify-content: space-between;
+      border: 2pt solid blue;
+    }
+
+  .icon {
+      border-radius: 50%;
+      justify-content: flex-start;
+
   }
   
-  .links {
-    display: flex;
+  .link-sources {
+    margin-left: 100 px;
+    border: 1pt solid red; 
     justify-content: flex-end;
+    display: flex;
   }
+
+  .link-stuff {
+    margin-left: 100 px;
+    border: 1pt solid red; 
+    justify-content: flex-end;
   
-  .stuff {
-    margin-left: 20px;
-    /*border: 1pt solid red; /* for debugging */
-  }
-  
+}
+*/
+
+
   .header-container {
      color: #660000;  /* burgundy red */
      background-color: #e3d3cb;  /* grey tan */
@@ -38,23 +98,17 @@
      border: 1pt solid black;
   }
   
-  .grid-container {
-    color: #; /* grey */
-    background-color: #; /* grey */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  
-  }
-  
+ 
   .column-grid {
     color: black;
-    background-color: #e0e0e0;  /* light grey */
+    background-color: #e0e0e0; 
     display: flex;
     flex: 1;
-    justify-content: space-between;
-  
-  }
+    border: 2pt solid red;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+   }
   
   .first-column,
   .third-column {
@@ -64,22 +118,40 @@
     justify-content: space-between;
   
   }
+
   .first-column {
     padding: 25px;
     border-right: 2pt solid black;
-  
   }
   
-  .second-column {
-    padding: 25px;
-  
-  }
-  
+   
   .third-column {
     padding: 25px;
     border-left: 2pt solid black; 
   
   }
+
+  .second-column {
+    padding: 25pt;
+    border: 2pt solid blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-two,
+  .portrait-two,
+  .content-two {
+      padding: 25px;
+      align-items: stretch;
+      
+  }
+ #portrait {
+      border-radius: 10%;
+
+      
+  }
+
   
   .footer {
     color: #fff;
