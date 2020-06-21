@@ -1,0 +1,88 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  .menu-container {
+   color: #e0e0e0;  /* light grey */
+   background-color: #302a2e;  /* dark plum */
+   padding: 20px 0;
+   display: flex;
+   justify-content: center;
+  }
+  
+  .menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .stuff {
+    margin-left: 20px;
+    /*border: 1pt solid red; /* for debugging */
+  }
+  
+  .header-container {
+     color: #660000;  /* burgundy red */
+     background-color: #e3d3cb;  /* grey tan */
+     display: flex;
+     justify-content: center;
+     border: 1pt solid black;
+  }
+  
+  .grid-container {
+    color: #; /* grey */
+    background-color: #; /* grey */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  
+  .column-grid {
+    color: black;
+    background-color: #e0e0e0;  /* light grey */
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  
+  }
+  
+  .first-column,
+  .third-column {
+    background-color: #e0e0e0;
+    flex: initial;
+    width: 500px;
+    justify-content: space-between;
+  
+  }
+  .first-column {
+    padding: 25px;
+  
+  }
+  
+  .second-column {
+    padding: 25px;
+  
+  }
+  
+  .third-column {
+    padding: 25px;
+  
+  }
+  
+  .footer {
+    color: #fff;
+    background-color: #302a2e;  /* dark plum */
+    display: flex;
+  
+  }
+  
