@@ -12,7 +12,9 @@
     color: #5D6063;
   }
  
- 
+ h2 {
+     color:  #302a2e;
+ }
   /* LINK STYLES */
   a:link,
   a:visited {
@@ -108,11 +110,16 @@
   }
   
  
+
+  /* COLUMN STYLES */
+
+
   .column-grid {
     color: black;
     background-color: #e0e0e0; 
     display: flex;
     flex-direction: row;
+
     
    }
   
@@ -120,20 +127,39 @@
   .third-column {
     background-color: #e0e0e0;
     width: 250px;
-    justify-content: center;
+    flex: initial;
+    
   
   }
 
   .first-column {
+    Margin-top: 10px;
     padding: 5px;
     border-right: 2pt solid black;
+    display: flex;
+    flex-direction: column;
   }
-  
+
+  .quotes {
+      display: flex;
+      padding: 5px;
+      justify-content: center;
+      border: 2pt solid red;
+  }
    
   .third-column {
     padding: 5px;
     border-left: 2pt solid black; 
+    display: flex;
+    flex-direction: column;
   
+  }
+  
+  .novels-list {
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+     
   }
 
   .second-column {
@@ -142,14 +168,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-   
-    
-
   }
 
   .header-two {
       padding: 10px;
+      border: 2pt solid blue;
+      display: flex;
+      flex-direction: column;
 
   }
 
