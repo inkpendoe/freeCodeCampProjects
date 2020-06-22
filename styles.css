@@ -40,6 +40,7 @@
     #icon {
         border-radius: 50%;
     }
+
   .menu {
       margin-top: 15px;
   }
@@ -95,9 +96,6 @@
 
 /* HEADER STYLES */
 
-
-
-
   .header-container {
      color: #660000;  /* burgundy red */
      background-color: #e3d3cb;  /* grey tan */
@@ -119,32 +117,95 @@
   .first-column,
   .third-column {
     background-color: #e0e0e0;
-    width: 250px;
-    justify-content: center;
+    width: 460px;
+    
   
   }
+ 
+
+  /*FIRST COLUMN CONTENT STYLES */
+
 
   .first-column {
-    padding: 5px;
+    padding: 10px;
     border-right: 2pt solid black;
+     display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
   }
-  
+
+  #column-one-heading {
+    padding-left: 100px;
+    color: red;
+
+  }
+
+  #Q-one {
+    padding: 15px;
+    color:;
+  }
+
+  #Q-two {
+    padding: 15px;
+    color:;
+  }
+
+  #Q-three {
+    padding: 15px;
+    color:;
+  }
+
+  #Q-four {
+    padding: 15px;
+    color:;
+  }
+
+  #Q-five {
+    padding: 15px;
+    color:;
+  }
+    
+
+/* THIRD COLUMN CONTENT STYLES */
    
   .third-column {
-    padding: 5px;
+    padding: 10px;
     border-left: 2pt solid black; 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
   
   }
 
+  #column-three-header {
+    padding: 15px;
+
+  }
+
+  #name-list-one {
+    padding: 15px;
+  }
+
+  #name-list-two {
+    padding: 15px;
+  }
+
+  #name-list-three {
+    padding: 15px;
+  }
+
+  #name-list-four {
+    padding: 15px;
+  }
+
+  /* SECOND COLUMN CONTENT STYLES */
+
   .second-column {
-    padding: 5px;
+    padding: 10px;
     align-items: center; 
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-   
-    
 
   }
 
@@ -162,9 +223,6 @@
 
  #portrait {
       border-radius: 10%;
-
-  
-    
 
   }
   
