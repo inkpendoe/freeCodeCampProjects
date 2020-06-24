@@ -5,13 +5,12 @@
     box-sizing: border-box;
   }
   
-/* BODY STYLES */
+/* BODY STYLES FONTS*/
   body {
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif "Palatino Linotype" ;
-    color: #5D6063;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
   }
- 
+  
  
   /* LINK STYLES */
   a:link,
@@ -34,7 +33,7 @@
 
       width: 100%;
       padding: 50px;
-      background: #302a2e;
+      background:#660000;
   }
 
     #icon {
@@ -67,7 +66,7 @@
   .dropdown:hover .features-menu {
       display: flex;
       flex-direction: column;
-      background: rgb(3, 3, 3);
+      background: rgb(129, 182, 153);/*rgb(3, 3, 3);*/
       border-radius: 5px;
       padding-top: 60px;
 
@@ -97,14 +96,21 @@
 /* HEADER STYLES */
 
   .header-container {
-     color: #660000;  /* burgundy red */
-     background-color: #e3d3cb;  /* grey tan */
+     color: #660000;  
+     background-color: rgb(161, 161, 160); 
      display: flex;
-     justify-content: center;
+     justify-content: space around;
+     flex-direction: column;
+     align-items: center;
      padding: 175px;
      height: 100px;
   }
   
+.header-two {
+  color: rgb(221, 177, 64);
+  font-style: oblique;
+  font-weight: bold;
+}
  
   .column-grid {
     color: black;
@@ -116,10 +122,8 @@
   
   .first-column,
   .third-column {
-    background-color: #e0e0e0;
     width: 460px;
     
-  
   }
  
 
@@ -127,49 +131,54 @@
 
 
   .first-column {
-    padding: 10px;
+    padding: 50px;
+    background-color: #660000;
     border-right: 2pt solid black;
-     display: flex;
+    display: flex;
     justify-content: flex-start;
     flex-direction: column;
   }
 
-  #column-one-heading {
-    padding-left: 100px;
-    color: red;
-
-  }
+ 
 
   #Q-one {
     padding: 15px;
-    color:;
+    color: orange;
+    font-weight: bold;
   }
 
   #Q-two {
     padding: 15px;
-    color:;
+    color: orangered;
+    font-style: 200%;
   }
 
   #Q-three {
     padding: 15px;
-    color:;
+    color:mediumspringgreen;
+    font-weight: bold;
+    font-style: italic;
+
   }
 
   #Q-four {
     padding: 15px;
-    color:;
+    color: lightsalmon;
+    font-weight: bold;
   }
 
   #Q-five {
     padding: 15px;
-    color:;
+    color:orange;
+    font-weight: bold;
   }
     
 
 /* THIRD COLUMN CONTENT STYLES */
    
   .third-column {
-    padding: 10px;
+    padding: 50px;
+    background-color: rgb(129, 182, 153);
     border-left: 2pt solid black; 
     display: flex;
     justify-content: flex-start;
@@ -178,8 +187,7 @@
   }
 
   #column-three-header {
-    padding: 15px;
-
+    
   }
 
   #name-list-one {
@@ -198,7 +206,11 @@
     padding: 15px;
   }
 
+
+
   /* SECOND COLUMN CONTENT STYLES */
+
+
 
   .second-column {
     padding: 10px;
@@ -207,25 +219,49 @@
     justify-content: center;
     flex-direction: column;
 
-  }
-
-  .header-two {
-      padding: 10px;
 
   }
 
-  .content-two {
+    .content-two {
     padding: 100px;
     display: flex;
     justify-content: center;
+  
       
   }
 
  #portrait {
-      border-radius: 10%;
+      border-radius: %;
 
   }
+
+  .portrait-container {
+    display: flex;
+    padding: 50px;
   
+  
+  }
+
+  .bg-portrait {
+    display: flex;
+    position: relative;
+  }
+  .portrait-two {
+    border: 2pt solid black;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+  }
+  
+  .youtube-vid {
+    display: flex;
+    padding-bottom: 100px;
+
+  }
+
+    /*FOOTER STYLES*/
+
+
   .footer {
     color: #fff;
     background-color: #302a2e;
