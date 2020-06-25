@@ -105,7 +105,7 @@
 
   .page {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
     padding-top: 125px;
     padding-bottom: 50px;
     padding-left: 50px;
@@ -116,8 +116,8 @@
 
   .header {
     display: flex;
-    flex-direction:column;
-    
+    flex-direction: column;
+
     }
 
    .artist img{
@@ -131,97 +131,55 @@
   .section {
     padding: 50px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: space-around;
+    
+    
+  
+   
   }
   
-  .art  img{
+  .art img {
+    display: flex;
+    flex-direction: column;
     background-color: #e48ef5;
     border: 2pt double orangered;
     border-radius: 10%;
     padding: 5px;
     margin: 25px;
-    width: 200px;
-    height: 300px;
+    justify-content: flex-end;
+    align-items: center;
+
+
   }
-
-  /*FOOTER STYLES*/
-
-
-.footer {
-    color: #fff;
-    background-color:  rgb(189, 87, 126);
-    display: flex;
-      
-}
-
-
-
-
-
-
-  /*@ STYLES WORK ON THIS */
-
-
-  /* Mobile Styles 
+/* @ MEDIA STYLES FOR RESPONSIVE IMAGES */
+ /* Mobile Styles */
   @media only screen and (max-width: 400px) {
     body {
-        background-color: red;  /* red */
+        background-color: #0ed6b5;  
     }
   }
   
-  /* Tablet Styles 
+  /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .art-1,
-    .art-2,
-    .art-3,
-    .art-4 {
+    .artist,
+    .art img{
        width: 50%;
     }
   }
-  
-  /* Desktop Styles 
+
+  /* Desktop Styles */
   @media only screen and (min-width: 961px) {
+    .menu-container,
     .page {
-      width: 30%s;
+      width: 100%;
       margin: 0 auto;
     }
 
-    .art-1,
-    .art-2,
-    .art-3,
-    .art-4 {
+    .artist,
+    .art img{
       width: 33.3%;
-
     }
-  }
-
-
     .header {
-      height: 400px;
-
+      height: auto;
     }
-
-
-    .art-1 {
-      height: 200px;
-      order: 1;
-
-    }
-    
-    .art-2 {
-        height: 200px;
-        order: 2;
-    }
-
-    .art-3 {
-        height: 200px;
-        order: 3;
-    }
-
-    .art-4 {
-        height: 200px;
-        order: 4;
-    }
- */
+}
+  
