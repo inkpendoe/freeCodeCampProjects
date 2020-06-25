@@ -136,123 +136,17 @@
     align-items: space-around;
   }
   
-  .art-1 img {
-    background-color: orangered;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-  .art-2 img {
-    background-color: #F5CF8E;
-    padding: 25px;
+  .art  img{
+    background-color: #e48ef5;
+    border: 2pt double orangered;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 25px;
     width: 200px;
     height: 300px;
   }
-  
-  .art-3 img {
-    background-color: #F09A9D;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-  }
-  
-  .art-4 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
 
-  }
-
-  .art-5 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-6 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-6 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-7 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-8 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-9 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-10 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-11 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-12 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-13 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-
-  .art-14 img {
-    background-color: #C8C6FA;
-    padding: 25px;
-    width: 200px;
-    height: 300px;
-
-  }
-/*FOOTER STYLES*/
+  /*FOOTER STYLES*/
 
 
 .footer {
