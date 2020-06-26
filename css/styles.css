@@ -98,19 +98,18 @@
 
 /* HEADER STYLES */
 
+  .page {
+    display: flex;
+  }
   .header-container {
-     display: flex;
-     flex-direction: column;
-     background-color: rgb(161, 161, 160); 
-     border: 2pt solid gold;
      padding: 10px;
      padding-top:150px;
-   
-   
+     border: 2pt solid purple;
+
+     display: flex;
+  
   }
-  .header-container {
-    width: 100%;
-  }
+
   .header-main {
     border: 2pt solid blue;
 
@@ -122,21 +121,15 @@
     font-weight: bold;
   }
  
+
+  /* PAGE CONTAINER FLEXBOX GRID */
+
   .column-grid {
-    color: black;
-    background-color: #e0e0e0; 
+    background-color: pink;/* #e0e0e0; */
     display: flex;
-    width: 100%;
-    height: auto;
-   
-    
+      
    }
-  
-  .first-column,
-  .third-column {
-    width: 50%;
-    
-  }
+
  
 
   /*FIRST COLUMN CONTENT STYLES */
@@ -145,9 +138,10 @@
   .first-column {
     padding: 50px;
     background-color: #660000;
-    border-right: 2pt solid black;
     border: 2pt solid blue;
-  
+
+    display: flex;
+    flex-shrink: 2;
   }
 
  
@@ -198,8 +192,10 @@
   .third-column {
     padding: 50px;
     background-color: rgb(129, 182, 153);
-    border-left: 2pt solid black; 
     border: 2pt solid blue;
+
+    display: flex;
+    flex-shrink: 2;
   
   }
 
@@ -236,32 +232,30 @@
 
   .second-column {
     padding: 10px;
-    width: auto;
-    align-items: center; 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     border: 2pt solid blue;
 
+    display: flex;
+    flex-shrink: 0;
 
   }
 
-    .content-two {
+  .content-two {
     padding: 100px;
     display: flex;
-    justify-content: center;
-    border: 2pt solid gold;
-  
+    justify-content: ;
+    border: 2pt solid purple;
       
   }
 
-
   .portrait-container {
+    border: 2pt solid purple;
     display: flex;
-    padding: 50px;
-    border: 2pt solid red;
-  
-  
+    flex-direction: column;
+    
+  }
+
+  #img-div {
+    border: 2pt solid;
   }
 
   .bg-portrait {
