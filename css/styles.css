@@ -288,6 +288,11 @@
   
   }
 
+  img {
+    max-width: 100%;
+  }
+
+
   /*@ MEDIA STYLES TO MAKE RESPONSIVE...
 /* Mobile Styles 
 @media only screen and (max-width: 400px) {
